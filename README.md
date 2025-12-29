@@ -1,59 +1,70 @@
-# AI-Interview-Coach
-AI Interview coach is an AI-powered interview preparation platform designed for students and fresh graduates. Using Google Gemini AI, the system generates realistic interview questions, analyzes user responses, and provides constructive feedback to improve interview performance, communication skills, and confidence.
-# AI Interview Performance Coach 🎙️
+# Getting Started with Create React App
 
-An intelligent, voice-powered interview preparation platform that provides real-time coaching, and actionable feedback using **Google Gemini 1.5 Flash**.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 🌟 The Vision
-The AI Interview Performance Coach was developed to help job seekers overcome interview anxiety. By simulating a real HR interaction through voice, the app doesn't just ask questions—it acts as a mentor that analyzes responses and helps candidates refine their delivery using state-of-the-art AI.
+In the project directory, you can run:
 
-## 🛠️ Google Technologies Used
-* Gemini 1.5 Flash: High-speed, low-latency generative AI model used for real-time interview logic and coaching feedback.
-* Google AI Studio:The development environment for the AI
-* web Speech API (Chrome): Powers the seamless **Speech-to-Text** (candidate input) and **Text-to-Speech** (AI Coach response).
-* Google Generative AI SDK: Official JavaScript SDK for secure model integration.
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## ✨ Key Features
-* Voice-First Interaction: Hands-free practice to simulate a real-world interview environment.
-* Actionable Feedback: Receive specific "Improvement Tips".
-* Secure Gateway: Simple login interface to manage user sessions.
+### `npm test`
 
-## 🚀 Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
-* Google Chrome (Required for Web Speech API support)
-* A Gemini API Key from [Google AI Studio](https://aistudio.google.com/)
+### `npm run build`
 
-### Installation
-1.  Install Dependencies:
-    ```bash
-    npm install
-    ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2.  Set up API Key:
-    Open `src/App.js` and replace the `API_KEY` placeholder with your actual key:
-    ```javascript
-    const API_KEY = "YOUR_GEMINI_API_KEY_HERE";
-    ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3.  Start the App:
-    ```bash
-    npm start
-    ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## 🧠 System Architecture
-1.  Input: User speaks into the microphone (Web Speech API).
-2.  Processing: Text is sent to the Gemini 1.5 Flash model with a "Coaching Prompt."
-3.  Analysis: Gemini generates feedback,and the next question.
-4.  Output: React updates the UI and the AI Coach speaks the response back to the user.
+### `npm run eject`
 
-## 📅 Project Roadmap (Future Scope)
-* Emotional Analysis: Using camera input to track facial expressions and confidence.
-* Industry Tracks: Specialized tracks for DevOps, Marketing, and Data Science.
-* Dashboard: Progress tracking graphs showing score improvements over time.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
